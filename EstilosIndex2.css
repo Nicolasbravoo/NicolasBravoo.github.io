@@ -129,10 +129,12 @@ article h2{
     font-size: 200%;
     font-weight: bold;
     text-decoration: none;
+  color: inherit;
 }
 
 article p{
     font-family:Verdana, Tahoma, sans-serif;
+     color: inherit;
     
 }
 article a{
