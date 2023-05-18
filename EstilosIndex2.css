@@ -1,7 +1,9 @@
-    color: whitesmoke;
+html{
+  background-color: black ;
+  color: whitesmoke;
 }
 
-body{
+body {
     background-color: black;
     margin: 0;
     width: auto;
