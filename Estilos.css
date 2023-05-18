@@ -1,0 +1,43 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+main{
+    justify-content: center;
+    
+    width: 98vw;
+    height: 50vh;
+    border: 3px solid grey;
+    border-radius: 10px;
+}
+.TITULO{
+    width: 300px;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.TITULO h1{
+    width: 300px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    
+}
+
+main p{
+    margin: 10px;
+   
+    text-decoration: none;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    
+}
+
+main a{
+    text-decoration: none;
+    
+
+}
+
