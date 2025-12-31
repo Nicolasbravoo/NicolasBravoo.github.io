@@ -258,3 +258,77 @@ h3 {
         font-size: 1.25rem;
     }
 }
+
+/* ============================= */
+/* 🌙 MODO OSCURO (NO INVASIVO) */
+/* ============================= */
+
+:root {
+    --bg-dark: #0f172a;
+    --card-dark: #020617;
+    --text-dark: #e5e7eb;
+    --muted-dark: #9ca3af;
+    --border-dark: #1e293b;
+}
+
+body.dark {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+/* tarjetas */
+body.dark .project-card,
+body.dark .about-card,
+body.dark .tech-badge {
+    background-color: var(--card-dark);
+    border-color: var(--border-dark);
+}
+
+/* textos secundarios */
+body.dark p,
+body.dark .bio,
+body.dark .specialty {
+    color: var(--muted-dark);
+}
+
+/* títulos */
+body.dark h1,
+body.dark h2,
+body.dark h3 {
+    color: var(--text-dark);
+}
+
+/* links */
+body.dark .link,
+body.dark .social-link {
+    color: var(--text-dark);
+}
+
+body.dark .link-primary {
+    color: #60a5fa;
+}
+
+/* tags */
+body.dark .tech-tag {
+    background-color: #1e40af;
+    color: #e0e7ff;
+}
+
+/* botón flotante */
+.theme-toggle {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    padding: 0.6rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    z-index: 1000;
+}
+
+body.dark .theme-toggle {
+    background: #020617;
+    color: #e5e7eb;
+}
