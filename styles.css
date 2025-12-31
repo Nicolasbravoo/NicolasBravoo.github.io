@@ -163,6 +163,11 @@ h3 {
     background: linear-gradient(135deg, #3b82f6, #9333ea);
     border-radius: 50%;
     margin: 0 auto 1rem;
+    overflow: hidden;
+}
+.avatar-image{
+    width: 100%;
+    height: auto;
 }
 
 .role {
